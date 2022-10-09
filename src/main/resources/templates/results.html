@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+</head>
+<body>
+
+    <form action="/save" method="POST">
+
+        <button type="submit">Save quotes</button>
+    
+        <table>
+            <tr data-th-each="q : ${quotes}">
+                <td>
+                    Quote: <span data-th-text="${q.quote}"></span><br>
+                    Author: <span data-th-text="${q.author}"></span><br>
+                    Character Count: <span data-th-text="${q.charCount}"></span>
+                    <input type="checkbox" name="saveCheckbox" th:value="${q.formattedQuote}"/>Save
+                </td>
+            </tr>
+        </table>
+        <input type="hidden" name="email" th:value="${email}">
+
+    </form>
+
+
+
+
+    <footer>
+        Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a>
+    </footer>
+</body>
+</html>

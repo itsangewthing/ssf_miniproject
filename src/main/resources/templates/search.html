@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get quotes</title>
+</head>
+<body>
+    <h1>Welcome <span data-th-text="${email}"></span>!</h1>
+
+    <form action="/list" method="GET">
+        <input type="hidden" name="email" th:value="${email}">
+        <button type="submit">get list of quotes</button>
+    </form>
+
+    <form action="/today" method="GET">
+        <input type="hidden" name="email" th:value="${email}">
+        <button type="submit">get quote of the day</button>
+    </form>
+
+    <form action="/random" method="GET">
+        <input type="hidden" name="email" th:value="${email}">
+        <button type="submit">get random quote</button>
+    </form>
+</body>
+</html>
