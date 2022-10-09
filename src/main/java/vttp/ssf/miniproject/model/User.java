@@ -1,4 +1,4 @@
-package com.example.miniproject.model;
+package vttp.ssf.miniproject.model;
 
 import java.util.ArrayList;
 import java.util.List;

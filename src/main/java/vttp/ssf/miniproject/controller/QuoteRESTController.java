@@ -1,4 +1,4 @@
-package com.example.miniproject.controller;
+package vttp.ssf.miniproject.controller;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.miniproject.service.UserService;
+import vttp.ssf.miniproject.service.UserService;
 
 import jakarta.json.Json;
 import jakarta.json.JsonObject;

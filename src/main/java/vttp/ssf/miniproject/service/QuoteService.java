@@ -1,4 +1,4 @@
-package com.example.miniproject.service;
+package vttp.ssf.miniproject.service;
 
 import java.io.Reader;
 import java.io.StringReader;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.example.miniproject.model.Quote;
+import vttp.ssf.miniproject.model.Quote;
 
 import jakarta.json.Json;
 import jakarta.json.JsonArray;

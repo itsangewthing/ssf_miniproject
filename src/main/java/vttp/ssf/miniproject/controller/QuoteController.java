@@ -1,4 +1,4 @@
-package com.example.miniproject.controller;
+package vttp.ssf.miniproject.controller;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -14,10 +14,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.miniproject.model.Quote;
-import com.example.miniproject.model.User;
-import com.example.miniproject.service.QuoteService;
-import com.example.miniproject.service.UserService;
+import vttp.ssf.miniproject.model.User;
+
+import vttp.ssf.miniproject.model.Quote;
+import vttp.ssf.miniproject.service.QuoteService;
+import vttp.ssf.miniproject.service.UserService;
 
 @Controller
 @RequestMapping

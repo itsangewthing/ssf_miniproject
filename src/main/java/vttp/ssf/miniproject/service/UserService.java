@@ -1,4 +1,4 @@
-package com.example.miniproject.service;
+package vttp.ssf.miniproject.service;
 
 import java.io.Reader;
 import java.io.StringReader;
@@ -8,8 +8,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.miniproject.model.User;
-import com.example.miniproject.repositories.UserRepository;
+import vttp.ssf.miniproject.model.User;
+import vttp.ssf.miniproject.repositories.UserRepository;
 
 import jakarta.json.Json;
 import jakarta.json.JsonObject;

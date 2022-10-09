@@ -1,4 +1,4 @@
-package com.example.miniproject.repositories;
+package vttp.ssf.miniproject.repositories;
 
 import java.io.Reader;
 import java.io.StringReader;
@@ -11,7 +11,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Repository;
 
-import com.example.miniproject.model.User;
+import vttp.ssf.miniproject.model.User;
 
 import jakarta.json.Json;
 import jakarta.json.JsonObject;

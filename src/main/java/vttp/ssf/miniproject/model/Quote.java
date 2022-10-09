@@ -1,4 +1,4 @@
-package com.example.miniproject.model;
+package vttp.ssf.miniproject.model;
 
 import org.jsoup.Jsoup;
 
